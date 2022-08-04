@@ -4,6 +4,7 @@ um id e um botão, depois crie um arquivo javascript com uma
 função addConteudo() que deve ser vinculado ao onclick do botão.
 Ao clicar no botão adicionar na div o texto “Olá Mundo”
 */
+/*
 let teste = document.getElementById("teste");
 function addConteudo(){
 
@@ -14,4 +15,10 @@ function addConteudo(){
         teste.textContent = "Botão";
         teste.value = "Botão"
     }
+}
+*/
+function addConteudo(){
+    document.getElementById('texto').innerText = 'Olá mundo'
+
+
 }
